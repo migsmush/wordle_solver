@@ -36,6 +36,7 @@ function App() {
                 borderColor: "#ffffff",
                 color: "#ffffff",
                 borderWidth: 1,
+                width: 25,
               }}
               onChangeText={setLetterOne}
               value={letterOne}
@@ -46,6 +47,7 @@ function App() {
                 borderColor: "#ffffff",
                 color: "#ffffff",
                 borderWidth: 1,
+                width: 25,
               }}
               onChangeText={setLetterTwo}
               value={letterTwo}
@@ -56,6 +58,7 @@ function App() {
                 borderColor: "#ffffff",
                 color: "#ffffff",
                 borderWidth: 1,
+                width: 25,
               }}
               onChangeText={setLetterThree}
               value={letterThree}
@@ -66,6 +69,7 @@ function App() {
                 borderColor: "#ffffff",
                 color: "#ffffff",
                 borderWidth: 1,
+                width: 25,
               }}
               onChangeText={setLetterFour}
               value={letterFour}
@@ -76,6 +80,7 @@ function App() {
                 borderColor: "#ffffff",
                 color: "#ffffff",
                 borderWidth: 1,
+                width: 25,
               }}
               onChangeText={setLetterFive}
               value={letterFive}
