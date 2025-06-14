@@ -1,5 +1,11 @@
 import { useState } from "react";
-import { TextInput, View, Text, SafeAreaView } from "react-native";
+import {
+  TextInput,
+  View,
+  Text,
+  SafeAreaView,
+  TouchableHighlight,
+} from "react-native";
 import "./App.css";
 
 function App() {
@@ -31,6 +37,7 @@ function App() {
               justifyContent: "space-evenly",
             }}
           >
+            <TouchableHighlight onPress={() => {}} />
             <TextInput
               style={{
                 borderColor: "#ffffff",
