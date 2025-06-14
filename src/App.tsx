@@ -44,6 +44,7 @@ function App() {
                 color: "#ffffff",
                 borderWidth: 1,
                 width: 25,
+                backgroundColor: "#ffffff",
               }}
               onChangeText={setLetterOne}
               value={letterOne}
