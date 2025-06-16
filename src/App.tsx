@@ -14,6 +14,11 @@ function App() {
   const [letterThree, setLetterThree] = useState("");
   const [letterFour, setLetterFour] = useState("");
   const [letterFive, setLetterFive] = useState("");
+  const [letterOneButtonColor, setLetterOneButtonColor] = useState("");
+  const [letterTwoButtonColor, setLetterTwoButtonColor] = useState("");
+  const [letterThreeButtonColor, setLetterThreeButtonColor] = useState("");
+  const [letterFourButtonColor, setLetterFourButtonColor] = useState("");
+  const [letterFiveButtonColor, setLetterFiveButtonColor] = useState("");
 
   return (
     <SafeAreaView
