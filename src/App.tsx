@@ -16,12 +16,16 @@ const GREEN = "#00ff00";
 
 const NUMLETTERS = 5;
 
+// TODO: suggest a word based on the number of options it would rule out
+
 const DEFAULT_BUTTON_COLORS = Array.from(Array(NUMLETTERS).keys()).map(
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   (i) => "#ffffff",
 );
 
 const DEFAULT_WORDS = words.filter((d) => d.length === 5);
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const DEFAULT_LETTERS = Array.from(Array(NUMLETTERS).keys()).map((i) => "");
 function App() {
   const [lettersArr, setLettersArr] = useState(DEFAULT_LETTERS);
